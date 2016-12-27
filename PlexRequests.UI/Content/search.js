@@ -49,7 +49,6 @@ $(function () {
     $('a[data-toggle="tab"]').on('shown.bs.tab', function (e) {
         focusSearch($($(e.target).attr('href')));
     });
-
     focusSearch($('li.active a', '#nav-tabs').first().attr('href'));
 
     // Type in movie search
